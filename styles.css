@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: linear-gradient(to left bottom, lightBlue, yellow, lightBlue);
   font-family: "Poppins", sans-serif;
 }
 
@@ -21,6 +21,7 @@ body {
 
 #camp-activities-inquiry {
   position: relative;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
   height: auto;
   /* max-height: 420px; */
   background: #1c1c1c;
@@ -74,6 +75,7 @@ body {
 
 #camp-activities-inquiry h1 {
   color: #fff;
+  text-shadow: 3px 3px 3px rgba(202, 181, 181, 0.5);
   font-weight: 500;
   text-align: center;
   margin-bottom: 10px;
@@ -83,7 +85,7 @@ body {
 label {
   color: rgb(255, 255, 255);
   margin-top: 1.2rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.5rem;
   font-weight: 600;
   letter-spacing: 0.1em;
 }
@@ -96,6 +98,7 @@ form {
 #activity-select {
   border-radius: 0.2rem;
   padding: 0.75rem;
+  margin-bottom: 0.8rem;
 }
 
 button {
@@ -122,10 +125,4 @@ textarea {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
   /* background: #e7eaec; */
-}
-/* textarea:hover {
-  background: #fff;
-} */
-
-@media (max-width: 768px) {
 }
