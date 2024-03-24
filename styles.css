@@ -85,6 +85,7 @@ label {
   margin-top: 1.2rem;
   margin-bottom: 0.5rem;
   font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 form {
@@ -98,15 +99,18 @@ form {
 }
 
 button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    color: #23242a;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    transition: background-color 0.3s ease;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgb(0, 162, 255);
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -114,10 +118,10 @@ button:hover {
 }
 
 textarea {
-    border-radius: 5px;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
-    /* background: #e7eaec; */
+  border-radius: 5px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  /* background: #e7eaec; */
 }
 /* textarea:hover {
   background: #fff;
