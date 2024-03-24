@@ -22,7 +22,7 @@ body {
 #camp-activities-inquiry {
   position: relative;
   height: auto;
-  max-height: 420px;
+  /* max-height: 420px; */
   background: #1c1c1c;
   border-radius: 8px;
   overflow: hidden;
