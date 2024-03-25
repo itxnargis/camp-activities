@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Please choose an activity.");
             event.preventDefault();
         } else {
-            // Display a gratitude message
             campActivitiesInquiry.innerHTML = "<p class='centered-message submitted-message'>Congratulations! Thank you for submitting the form.</p>";
             event.preventDefault();
         }
