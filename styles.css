@@ -30,7 +30,7 @@ body {
   justify-content: center;
   padding: 20px 30px;
   border: 2px solid;
-    border-image: linear-gradient(to right, lightBlue, yellow, lightBlue) 1;
+  border-image: linear-gradient(to right, lightBlue, yellow, lightBlue) 1;
 }
 
 #camp-activities-inquiry h1 {
@@ -91,4 +91,12 @@ textarea {
     background: #222;
     color: #fff;
   }
+}
+
+.centered-message {
+  text-align: center;
+}
+
+.submitted-message {
+  color: white; /* Set the text color to white for the light theme */
 }
