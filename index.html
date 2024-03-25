@@ -15,7 +15,7 @@
             <h1>Camp Activities Inquiry</h1>
             <form id="inquiry-form" action="/submit-form" method="POST">
                 <label for="activity-select">Which camp activities are you most looking forward to?</label>
-                <select id="activity-select" name="activity">
+                <select id="activity-select" name="activity" required>
                     <option value="">--Please choose an option--</option>
                     <option value="hiking">Hiking</option>
                     <option value="canoeing">Canoeing</option>
@@ -25,10 +25,10 @@
                 </select>
 
                 <label for="food-allergies">Food Allergies (if any)</label>
-                <textarea id="food-allergies" name="food_allergies" rows="4" cols="50"></textarea>
+                <textarea id="food-allergies" name="food_allergies" rows="4" cols="50" placeholder="Enter any food allergies here (if applicable)"></textarea>
 
                 <label for="additional-info">Additional things the counselor should know</label>
-                <textarea id="additional-info" name="additional_info" rows="4" cols="50"></textarea>
+                <textarea id="additional-info" name="additional_info" rows="4" cols="50" placeholder="Provide any additional information you think the counselor should know"></textarea>
 
                 <button type="submit">Submit</button>
             </form>
