@@ -21,9 +21,8 @@ body {
 
 #camp-activities-inquiry {
   position: relative;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
   height: auto;
-  /* max-height: 420px; */
   background: #1c1c1c;
   border-radius: 8px;
   overflow: hidden;
@@ -31,46 +30,6 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 20px 30px;
-}
-
-#camp-activities-inquiry::before,
-#camp-activities-inquiry::after {
-  content: "";
-  position: absolute;
-  width: calc(100% + 20px);
-  height: calc(100% + 20px);
-  background: linear-gradient(
-    0deg,
-    transparent,
-    transparent,
-    #ff2770,
-    #ff2770,
-    #ff2770
-  );
-  z-index: -1;
-  transform-origin: bottom right;
-  animation: animate 6s linear infinite;
-}
-
-#camp-activities-inquiry::before {
-  top: -10px;
-  left: -10px;
-  animation-delay: -1.5s;
-}
-
-#camp-activities-inquiry::after {
-  bottom: -10px;
-  right: -10px;
-  animation-delay: -4.5s;
-}
-
-@keyframes animate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 #camp-activities-inquiry h1 {
@@ -124,5 +83,15 @@ textarea {
   border-radius: 5px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
-  /* background: #e7eaec; */
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #222;
+    color: #fff;
+  }
+  #camp-activities-inquiry {
+    border: 2px solid;
+    border-image: linear-gradient(to right, lightBlue, yellow, lightBlue) 1;
+  }
 }
