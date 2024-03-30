@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var campActivitiesInquiry = document.getElementById('camp-activities-inquiry');
 
     form.addEventListener('submit', function (event) {
-            campActivitiesInquiry.innerHTML = "<p class='centered-message submitted-message'>Congratulations! Thank you for submitting the form.</p>";
+            campActivitiesInquiry.innerHTML = "<p class='centered-message submitted-message'>Thank you for submitting the form.</p>";
             event.preventDefault();
     });
 });
